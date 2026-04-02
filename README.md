@@ -1,2 +1,6 @@
 # alpha_vacua_b_modes
-Cosmological inflation, the theory that has our Universe expand extremely rapidly shortly after the Big Bang, is well approximated by de Sitter space, the most symmetric solution to Einstein's equations of motion with a positive cosmological constant. Due to the symmetries of de Sitter space, there are multiple vacuum states in which one can define their Fock space. These states are parameterised by α, where α=0 is the familiar Euclidean vacuum. This choice of α scales the power spectra of inflation by $e{2\alpha}$. This code uses the analytic relationship between $r$ and $\alpha$ to find values that match a given value of the scalar-to-tensor ratio.
+Cosmological inflation, the theory that has our Universe expand extremely rapidly shortly after the Big Bang, is well approximated by de Sitter space, the most symmetric solution to Einstein's equations of motion with a positive cosmological constant. Due to the symmetries of de Sitter space, there are multiple vacuum states in which one can define their Fock space. These states are parameterised by $\alpha$, where $\alpha=0$ is the familiar Euclidean vacuum. This choice of $\alpha$ scales the power spectra of inflation by $e^{2\alpha}$. This code uses the analytic relationship between $r$ and $\alpha$ to find values that match a given value of the scalar-to-tensor ratio.
+
+$$\alpha = \frac{1}{2}\ln{\frac{r_0}{r}},$$
+
+where $r_0$ is the value of $r$ you are fitting to.
